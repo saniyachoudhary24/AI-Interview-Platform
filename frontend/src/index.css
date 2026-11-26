@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --color-beige: #F8F1E7;
+  --color-terracotta: #B45335;
+  --color-terracotta-dark: #93432B;
+  --color-cream: #FFFAF5;
+  --color-coffee: #412D25;
+  --color-warm-muted: #78665D;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #F8F1E7;
+  color: #412D25;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+::selection {
+  background-color: #B45335;
+  color: white;
+}
